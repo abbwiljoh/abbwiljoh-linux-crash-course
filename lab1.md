@@ -35,8 +35,11 @@
   4. Writing 'cat sle' and pressing tab autocompletes the command to 'cat sleep '
   
 ### Assignment 7:
-  1.
-  2.
-  3.
-  4.
+  1. Present Working Directory can be printed with `pwd`. The present value is `/home/abbwiljoh`
+  2. `HOME` is the user's home directory, reached by the default `cd` command. `PATH` is the search path for commands, organized in a colon-separated list. `SHELL` is where the fullpathname to the shell is stored. `USER` stores the user name4
+  3. The `export` command creates variables added to the environment. 
+    `HelloWorld() {echo "Hello World!";}`
+    `export -f HelloWorld`
+    `HelloWorld` ==> `Hello World!`
+  4. You can add a path to the `$PATH` environment variable by using `export PATH="$HOME/abbwiljoh/bin:$PATH"`
   
