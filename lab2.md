@@ -5,8 +5,11 @@
 4. In the file manager toolbar, go to "view" and check the box called "Show hidden items". Voila!
 
 ### Assignment 2
-1.
-2.
+1. 
+  * a) `ls -a` lists all files and directories, even hidden.
+  * b) `ls -F` lists directories with a '/' appended.
+  * c) `ls -l` lists files and directories in an extended format, with more data like time and date created.
+2. `cd` is 'change directories' and lets you move between directories. `pwd` prints current working directory (path).
 
 ### Assignment 3
 1.
