@@ -12,8 +12,17 @@
 2. `cd` is 'change directories' and lets you move between directories. `pwd` prints current working directory (path).
 
 ### Assignment 3
-1.
-2.
+1. `/home` contains the users and their respective directories.
+`/usr` contains user items, like games and such.
+`/var` contains locals, cache and a /tmp directory.
+`/tmp` is where temporarily used files are stored. 
+`/etc` has configuration files, et cetera.
+
+2. 
+  * a) *Shell built-in ccommands* are built into the shell, they work as long as the terminal works. *external commands* are not bulit-in, they need to be found in  files and directories. The executable files for the commands can be found in the $PATH-environmental variable.
+  * b) `cd` and `umask` are internal commands.
+  * c) External commands are usually stored in `/usr/bin`
+
 
 ### Assignment 4
 1.
