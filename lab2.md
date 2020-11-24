@@ -1,7 +1,8 @@
 ### Assignment 1
 1. In the GUI, directories have a folder icon. I could not find `local` or `messages`.
 2. Copying and pasting the file in the same folder creates a file with the suffix *(copy {number})*
-3. SUCCESSFULLY DELETED.
+
+3. *`SUCCESSFULLY DELETED`*.
 4. In the file manager toolbar, go to "view" and check the box called "Show hidden items". Voila!
 
 ### Assignment 2
