@@ -61,8 +61,8 @@
   * a) `find` finds all files and directories with the specified name, in the specified location.
   * b) `locate` finds *one* file or directory matching the given name.
   * c) `whereis` is a command for finding the executable and man page of a command or program.
-  * d) `which`
-2. 
+  * d) `which` gives the path for the executable file of a command.
+2. Use flag `-iname` for a case insensitive.
 
 ### Assignment 6
 1.
