@@ -26,11 +26,20 @@
 
 
 ### Assignment 4
-1.
-2.
-3.
-4.
-5.
+1. 
+  * a) To create a directory I used the command `mkdir`.
+  * b) Any characters can be used, but special characters get put inside quotation marks. You cannot name an already existing file.
+2. I wrote a file with `nano Lab2Test.txt` and a file with `cat > Lab2Test_1.txt`.
+3. 
+  * a) `/home/abbwiljoh/Lab2Test/subdir1`
+  * b) `subdir1`
+4. 
+  * a) The dot `.` represents the current working directory, and can be used when copying files to the current directory among other things.
+  * b) The double dot `.` represents the parent directory (the directory that contains the current directory). It can be used to go back up the chain of directories, instead of finding your way from the root directory
+5. 
+  * a) `*` is the globbing command for a range between 1 and an infinite amount of any character combination. You can put it in a `find` command in any place in the search term and find all instances of that. The `?` represents just *one* unknown character, unlike the infinite amount of the `*`. You use it to get more precise results when you know the amount of characters in a name for instance.
+  * b) In the `home` -directory you can use `ls D*`, which (in the default version) will list `Desktop`, `Downloads` and `Documents`.
+  * c) In the directory I created `Lab2Test/` I used `ls subdir?` to list both `subdir1` and `subdir2`.
 6.
 7.
 
