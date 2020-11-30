@@ -72,18 +72,30 @@
   * `-u` "update". Copy only when the copied file or directory is newer than the destination file, or when there is no existing destination file.
   * '-r' "recursive". Copies directories recursivly
   * `-p` "preserve". Shorthand for `--preserve=mode,ownerships,timestamps`.
-  * `-b` ""
-  * `-i` ""
-2.
-3.
-4.
-5.
+  * `-b` "backup". Backs up files without an argument.
+  * `-i` "interactive". Prompt before overwrite.
+  
+2. Working: a, g, h. Not working: You cannot copy a file into the same file. You cannot copy a file into two different files in the same directory. Also you can't copy into the same directory and another at the same time. You cannot copy a directory into a file. 
+
+3. To copy all files in a directory with `.txt`-file extension use `cp *.txt subdir2`.
+
+4. 
+  * a) `mv file2.txt subdir2` to move `file2.txt` to `subdir2/`
+  * b) To remove `file4.txt` from subdirectory `subdir1/`, use `rm subdir1/file4.txt`
+
+5. `mv * subdir2/` There will be an error trying to move subdir2/ to itself, but every other file will be moved.
 
 ### Assignment 7
-1.
-2.
-3.
-4.
+1. 
+  * `tar` An archiving utility which stores multiple files in the same file.
+  * `gzip` Compress or expand files, reduces their sizes
+  * `gunzip` Decompresses the `gzip`-compressed files and alike.
+
+2. (used `tar -cf abcdef.tar *`)
+
+3. From the subdirectory `unpack_test` I used the command `tar -xf ../abcdef.tar `
+
+4. used `gzip abcdef.tar` then `tar -xf abcdef.tar.gz`.
 
 ### Assignment 8
 1.
