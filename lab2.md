@@ -65,7 +65,15 @@
 2. Use flag `-iname` for a case insensitive.
 
 ### Assignment 6
-1.
+1.  
+  * a) `cp Lab2Test.txt Lab2Test_backup.txt` is the command I used. 
+  * b)   
+  * `-v` "verbose". Explains what is done
+  * `-u` "update". Copy only when the copied file or directory is newer than the destination file, or when there is no existing destination file.
+  * '-r' "recursive". Copies directories recursivly
+  * `-p` "preserve". Shorthand for `--preserve=mode,ownerships,timestamps`.
+  * `-b` ""
+  * `-i` ""
 2.
 3.
 4.
