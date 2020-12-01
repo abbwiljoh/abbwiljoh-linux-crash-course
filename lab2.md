@@ -98,8 +98,14 @@
 4. used `gzip abcdef.tar` then `tar -xf abcdef.tar.gz`.
 
 ### Assignment 8
-1.
-2.
-3.
-4.
-5.
+1. The `noclobber`-option disables the ability to overwrite existing files with the `>`-command.
+2. I used `ls Lab2Test/ | wc -w Lab2test` and got the answer `3` as I had three directories there.
+3. 
+  * a) From `home` I created a file called `listing.log`. To redirect filenames of `/usr/bin/` to it I used 
+  `ls /usr/bin/ > ~/listing.log`
+  * b) Used `ls /etc >> listing.log`
+4. 
+  * a) 
+  * b)
+  * c) 
+5. 
