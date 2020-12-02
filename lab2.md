@@ -105,7 +105,7 @@
   `ls /usr/bin/ > ~/listing.log`
   * b) Used `ls /etc >> listing.log`
 4. 
-  * a) 
-  * b)
-  * c) 
-5. 
+  * a) `cat Documents/Laboration2/numbers.txt | sort -rn` to sort the numbers from largest --> smallest. To reverse order, just remove `-r`.
+  * b) `cat Documents/Laboration2/numbers.txt | sort -rnu` to sort with just unique items.
+  * c) `sort numbers.txt -n > sorted_numbers.txt` to redirect sorted list to `sorted_numbers.txt`-file.
+5. `ls -a|head -c 10|sort -n` ? I do not know...
