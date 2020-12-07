@@ -1,5 +1,5 @@
 # abbwiljoh-linux-crash-course
-Notes and assignments for the Linux Crash Course at MDH.
+Notes and assignments for the Linux Crash Course at MDH. By William Johansson. In group with Gabriel Calota and Jonathan Damsgaard Falck.
 
 ### Contents:
 
