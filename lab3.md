@@ -21,10 +21,9 @@ Third Laboration centering around text editors and alike.
 4. `ls /usr/bin -la | egrep "\->"` (The `\` is to disable the `-` command which would ruin the command)
 
 ## Assignment 3
-1.
-2.
-3.
-
+1. `ls /usr/bin | grep "pri" | sed "s/pri/###/"` filters all names by "pri" and substitutes "pri" with "###".
+2. `echo "abcde abcde ae | sed "s/a/e/g"` To replace all "a":s, use `/g`-flag to make substitution global.
+3. `echo "di datkri lavrs bytytys" | sed "y/adirty/umyena/"`. The  Stream EDitor `y` lets you substitute letters by index (I think), so you can input the letters you want substituted on the left, and on the right side (the` replacement `) you put the substitutes in the same position (index) as the letter you want substituted. Mi datkri ylso lovrs bytytys.
 ## Assignment 4
 1.
 2.
